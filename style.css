@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/* reset */
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #333333;
+}
+a {
+    display: block;
+}
+#wrap {
+    width: 100%;
+}
+
+/* header */
+header {
+    position: relative;
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    background-color: #d5bdaf;
+}
+.logo {
+    margin: 0;
+    width: 200px;
+    height: 100px;
+}
+header img {
+    margin-top: 30px;
+}
+nav {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 600px;
+    height: 40px;
+}
+nav > ul {
+    display: flex;
+}
+nav li {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #e3d5ca;
+}
+nav li:hover {
+    background-color: #f5ebe0;
+}
+.sub-menu {
+    display: none;
+}
+
+/* section */
+#visual {
+    width: 1200px;
+    height: 300px;
+    background-color: #333;
+}
+.slide {
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+.slide li {
+    position: relative;
+}
+.slide p {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0,0,0,0.8);
+    color: #f5ebe0;
+    font-size: 2em;
+    text-align: center;
+    line-height: 100px;
+    transform: translate(-50%, -50%);
+}
+#contents {
+    display: flex;
+    width: 1200px;
+    height: 200px;
+}
+article {
+    width: 400px;
+    height: 200px;
+    background-color: #444;
+}
+
+/* footer */
+footer {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+}
+.bt-logo {
+    width: 200px;
+    height: 100px;
+    background-color: #555;
+}
+.copy {
+    width: 800px;
+    height: 100px;
+    background-color: #666;
+}
+.sns {
+    width: 200px;
+    height: 100px;
+    background-color: #777;
+}
