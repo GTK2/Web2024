@@ -13,6 +13,36 @@ a {
 }
 #wrap {
     width: 100%;
+    position: relative;
+}
+
+/* 레이어 팝업 */
+.popup {
+    display: none;
+    width: 300px;
+    height: 300px;
+    background-color: #edede9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+}
+.popup h2 {
+    height: 40px;
+    padding: 10px;
+    background-color: #d5bdaf;
+}
+.popup p {
+    padding: 10px;
+}
+.popup button {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
 }
 
 /* header */
@@ -100,6 +130,7 @@ nav li:hover {
 }
 .slide li {
     position: relative;
+    height: 300px;
 }
 .slide p {
     position: absolute;
@@ -137,6 +168,11 @@ article {
     height: 30px;
     text-align: center;
     line-height: 30px;
+}
+.on {
+    background-color: #f3e5da;
+}
+.off {
     background-color: #e3d5ca;
 }
 .content {
